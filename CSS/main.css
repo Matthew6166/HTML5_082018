@@ -1,0 +1,207 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+    Comments
+*/
+.topnav {
+    background-color: black;
+    overflow: hidden;
+} 
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(177, 219, 9);
+    color: red;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 0px;
+    font-size: 17px;
+    font-weight: bold; 
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav .search-container button {
+    float: right;
+    margin-left: 0px;
+    margin-right: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #cccccc;
+}
+
+@media screen and (max-width:600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0px;
+        padding: 14px; 
+    }
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom:0;
+    background-color: red;
+    color: white;
+    font-weight: bold;  
+    width: 100%;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer .bottomcolumn {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bottomrow {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bottomcolumn {
+    text-align: center;
+    padding: 10px;
+}
+
+.row {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.column {
+    float: left;
+    background-color: gray;
+}
+
+.left {
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+.right {
+    width: 75%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.lastdiv {
+    margin-bottom: 150px;
+}
+
+#fb, #gl, #sc, #ig {
+    margin: 0px 5px 0px 5px;
+    color: rgb(252, 248, 25);
+}
+
+/*i {
+    margin: 0px 5px 0px 5px;
+    color: rgb(252, 248, 25);
+}*/
+
+/*a {
+    text-decoration: none;
+}*/
+
+.roworigin {
+    background-color: yellow;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    clear: both;
+}
+
+.twocolumn {
+    float: left;
+    width: 45%;
+    padding: 10px 10px 10px 10px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #e92005;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(0, 247, 255);
+}
+
+/* changes to hyperlink*/
+a:link {
+    color: rgb(10, 51, 235);
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+
+a:hover {
+    color: red;
+    background-color: aquamarine;
+    text-decoration: underline
+}
+
+a:visited {
+    color: rgb(241, 236, 236);
+    background-color: transparent;
+    text-decoration: none;
+}
