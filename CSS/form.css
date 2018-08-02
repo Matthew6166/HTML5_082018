@@ -27,6 +27,7 @@ CSS to be used by contact.html
 }
 
 .formcss {
+    display: block;
     width: 75%;
     padding: 12px;
     border: 2px dotted rgb(71, 4, 71);
@@ -34,6 +35,18 @@ CSS to be used by contact.html
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+.formcssa {
+    width: 100%;
+    padding: 12px;
+    border: 2px dotted rgb(71, 4, 71);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
 
 .formbutton {
     background-color: blue;
